@@ -64,4 +64,3 @@ plt.title(f"Verdadeiro: {classes[int(random_label)]}, Previsto: {
 plt.show()
 logging.info(f"Imagem aleatória rotulada como: Verdadeiro: {
              classes[int(random_label)]}, Previsto: {classes[predicted_label]}")
-
