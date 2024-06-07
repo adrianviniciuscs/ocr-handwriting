@@ -59,8 +59,8 @@ predicted_label = predicted_labels[batch_index * batch_size + image_index]
 
 # Mostra a imagem aleatória com seu rótulo previsto
 plt.imshow(random_image)
-plt.title(f"Verdadeiro: {classes[int(random_label)]}, Previsto: {
+plt.title(f"Verdadeiro: {classes[int(random_label)]}, Predição: {
           classes[predicted_label]}")
 plt.show()
 logging.info(f"Imagem aleatória rotulada como: Verdadeiro: {
-             classes[int(random_label)]}, Previsto: {classes[predicted_label]}")
+             classes[int(random_label)]}, Predição: {classes[predicted_label]}")

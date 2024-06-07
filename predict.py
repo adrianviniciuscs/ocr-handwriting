@@ -40,7 +40,6 @@ logging.info("Predições concluídas.")
 
 # Mostra a imagem com seu rótulo previsto
 plt.imshow(image.load_img(image_path, target_size=(64, 64)))
-plt.title(f"Previsto: {classes[predicted_label]}")
+plt.title(f"Predição: {classes[predicted_label]}")
 plt.show()
 logging.info(f"Resultado da predição: {classes[predicted_label]}")
-

@@ -65,4 +65,3 @@ logging.info("Treinamento concluído.")
 model.save('trained_model.h5')
 np.save('label_encoder.npy', train_generator.class_indices)
 logging.info("Modelo e encoder salvos.")
-
